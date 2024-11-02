@@ -8,6 +8,9 @@ import Clickevents from "./assets/Components/Click events/Clickevents";
 import Usestate from "./assets/Components/React hook usestate/Usestate";
 import Counter from "./assets/Components/React hook usestate/Counter";
 import Onchangeevent from "./assets/Components/React hook usestate/Onchangeevent";
+import Colorpicker from "./assets/Components/Colorpicker";
+import Updateobjectstate from "./assets/Components/Updateobjectstate";
+import Updatearraystate from "./assets/Components/Updatearraystate";
 
 function App() {
   const fruits = [
@@ -44,6 +47,9 @@ function App() {
       <Usestate />
       <Counter />
       <Onchangeevent />
+      <Colorpicker />
+      <Updateobjectstate />
+      <Updatearraystate />
     </div>
   );
 }
