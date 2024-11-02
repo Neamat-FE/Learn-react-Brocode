@@ -15,6 +15,7 @@ function Updatearraystate() {
   }
   return (
     <div className="container mb-5">
+      <p>--Update Array in State--</p>
       <h2>List of Food</h2>
       <ul>
         {foods.map((food, index) => (
