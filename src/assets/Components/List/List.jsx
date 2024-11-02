@@ -18,7 +18,7 @@ function List(props) {
   //const lowcalFruits = fruits.filter((fruit) => fruit.calories >= 80);
 
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 bg-info-subtle p-3">
       <h3>{category}</h3>
       <p>{listItems}</p>
     </div>

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 function Student(props) {
   return (
-    <div className="student container">
+    <div className="student container bg-info-subtle p-3">
       <p>Student Name : {props.name}</p>
       <p>Student Age : {props.age}</p>
       <p>Student Roll : {props.roll}</p>

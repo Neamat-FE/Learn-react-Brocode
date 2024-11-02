@@ -27,7 +27,7 @@ function Onchangeevent() {
   }
 
   return (
-    <div className="container mt-4 mb-5">
+    <div className="container mt-4 mb-5 bg-info-subtle p-5">
       <input
         type="text"
         value={name}
@@ -36,6 +36,7 @@ function Onchangeevent() {
       />
       <h3 className="mt-3">Name : {name}</h3>
       <input
+        className="mt-4"
         type="number"
         value={quantity}
         onChange={handleQuantity}

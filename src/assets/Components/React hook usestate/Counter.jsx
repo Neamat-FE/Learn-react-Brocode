@@ -14,7 +14,7 @@ function Counter() {
   };
 
   return (
-    <div className="container mb-3">
+    <div className="container mb-3 bg-info-subtle p-3">
       <h2 className=""> {count}</h2>
       <button onClick={reset}>Reset value</button>
       <button onClick={decrement} disabled={count === 0 ? true : false}>

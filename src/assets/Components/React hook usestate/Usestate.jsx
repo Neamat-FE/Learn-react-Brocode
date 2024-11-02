@@ -25,7 +25,7 @@ export default class State extends Component {
   render() {
     const { count } = this.state;
     return (
-      <div className="container mt-3 mb-3">
+      <div className="container mt-3 mb-3 bg-info-subtle p-3">
         <h2>Count : {count}</h2>
 
         <button
