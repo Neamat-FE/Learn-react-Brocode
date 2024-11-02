@@ -5,6 +5,9 @@ import New from "./assets/Components/CSS Module/New";
 import Student from "./assets/Components/Props/Student";
 import List from "./assets/Components/List/List";
 import Clickevents from "./assets/Components/Click events/Clickevents";
+import Usestate from "./assets/Components/React hook usestate/Usestate";
+import Counter from "./assets/Components/React hook usestate/Counter";
+import Onchangeevent from "./assets/Components/React hook usestate/Onchangeevent";
 
 function App() {
   const fruits = [
@@ -38,6 +41,9 @@ function App() {
       ) : null}
       ;
       <Clickevents />
+      <Usestate />
+      <Counter />
+      <Onchangeevent />
     </div>
   );
 }
