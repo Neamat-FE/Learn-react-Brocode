@@ -8,13 +8,13 @@ function Updateobjectstate() {
   });
 
   function handleYearChange(event) {
-    setCar((c) => ({ ...c, year: event.target.value }));
+    setCar((car) => ({ ...car, year: event.target.value }));
   }
   function handleMakeChange(event) {
-    setCar((c) => ({ ...c, make: event.target.value }));
+    setCar((car) => ({ ...car, make: event.target.value }));
   }
   function handleModelChange(event) {
-    setCar((c) => ({ ...c, model: event.target.value }));
+    setCar((car) => ({ ...car, model: event.target.value }));
   }
 
   return (

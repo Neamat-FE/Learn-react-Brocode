@@ -11,6 +11,8 @@ import Onchangeevent from "./assets/Components/React hook usestate/Onchangeevent
 import Colorpicker from "./assets/Components/Colorpicker";
 import Updateobjectstate from "./assets/Components/Updateobjectstate";
 import Updatearraystate from "./assets/Components/Updatearraystate";
+import Useeffect from "./assets/Components/Useeffect/Useeffect";
+import Todolist from "./assets/Components/Todolist";
 
 function App() {
   const fruits = [
@@ -50,6 +52,8 @@ function App() {
       <Colorpicker />
       <Updateobjectstate />
       <Updatearraystate />
+      {/* <Useeffect/> */}
+      <Todolist/>
     </div>
   );
 }
