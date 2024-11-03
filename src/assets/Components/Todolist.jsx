@@ -3,6 +3,17 @@ import React, {useState} from 'react'
 function Todolist() {
   const [tasks,setTasks] = useState([]);
   const [newTask,setNewTask] = useState("");
+  function handleInputChange(e){
+
+  }
+
+  function addTask(){
+    setTasks([...tasks,newTask]);
+  }
+
+  function removeTask(){
+    setTasks(tasks.filter((task, index)=>))
+  }
 
 
   return (
