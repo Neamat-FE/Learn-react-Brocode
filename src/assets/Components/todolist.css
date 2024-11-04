@@ -1,0 +1,31 @@
+.task-list li{
+    list-style-type: none;
+}
+
+.todo-list input{
+    padding: 10px;
+    background-color: darkcyan;
+    color: white;
+    border-radius: 10px;
+    font-size: 24px;
+    border: none;
+    
+}
+::placeholder{
+    color: white !important;
+}
+
+.todo-list button{
+    padding: 10px;
+    border-radius: 6px;
+    background-color: darkcyan;
+    color: white;
+    font-size: 24px;
+    border: none;
+    margin-left: 10px;
+}
+
+.task-list span{
+    font-size: 28px;
+    margin-right: 20px;
+}
