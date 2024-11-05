@@ -49,7 +49,7 @@ function Todolist() {
       <div className="todo-list text-center ">
           <h2 className='mb-3'>Todo List</h2>
           <input type="text" placeholder='Enter Your Task' value={newTask} onChange={handleInputChange}/>
-          <button onClick={addTask} className='add-button'>Add</button>
+          <button onClick={addTask} className='add-button'>Add+</button>
 
           <ol className='mt-4 task-list'>
             {tasks.map((task,index)=>
