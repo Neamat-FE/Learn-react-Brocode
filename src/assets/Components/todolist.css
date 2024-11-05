@@ -1,31 +1,80 @@
-.task-list li{
-    list-style-type: none;
+
+.todo-list{
+    max-width: 700px;
+    margin-top: 30px;
 }
 
 .todo-list input{
-    padding: 10px;
+    padding: 14px;
     background-color: darkcyan;
+    height: 80px;
+    width: 500px;
     color: white;
     border-radius: 10px;
     font-size: 24px;
     border: none;
     
 }
+
+.add-button{
+    height: 80px !important;
+    width: 120px;
+}
+
+.add-button:hover{
+    background-color:rgb(5, 94, 94) ;
+}
+
 ::placeholder{
     color: white !important;
 }
 
-.todo-list button{
-    padding: 10px;
-    border-radius: 6px;
-    background-color: darkcyan;
-    color: white;
-    font-size: 24px;
-    border: none;
-    margin-left: 10px;
+
+ol{
+    padding: 0;
 }
 
-.task-list span{
-    font-size: 28px;
-    margin-right: 20px;
+.todo-list li{
+    list-style: none;
+    font-size: 28px; 
+    font-weight: 500;
+    color: rgb(56, 56, 56);
+    padding: 14px;
+    background-color: #ececec;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.task-name{
+    flex: 1;
+}
+
+.todo-list button{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 12px 24px;
+    color: white;
+    background-color: darkcyan;
+    border-radius: 8px;
+    border: none;
+    cursor:pointer;
+    margin-left: 16px;
+}
+
+.task-list .delete-button{
+    background-color: #E95455;
+}
+.task-list .delete-button:hover{
+    background-color: hsl(0, 52%, 42%);
+}
+
+.task-list .move-button{
+    background-color: rgba(131, 22, 22, 0.623);
+
+}
+
+.task-list .move-button:hover{
+    background-color: hsl(0, 50%, 30%);
 }
