@@ -1,10 +1,10 @@
 import React from "react";
-import styles from "./new.module.css";
+import './new.module.css';
 
 function New() {
   return (
     <div className="container">
-      <h1 className={styles.h1}>Hello BD</h1>
+      <h1>Hello Bangladesh</h1>
     </div>
   );
 }

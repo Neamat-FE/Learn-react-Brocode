@@ -53,7 +53,7 @@ function App() {
       <Updateobjectstate />
       <Updatearraystate />
       {/* <Useeffect/> */}
-      <Todolist/>
+      <Todolist />
     </div>
   );
 }
